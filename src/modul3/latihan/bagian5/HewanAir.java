@@ -1,4 +1,7 @@
 package modul3.latihan.bagian5;
 
-public class HewanAir {
+abstract class HewanAir {
+    String nama;
+
+    abstract void makan();
 }

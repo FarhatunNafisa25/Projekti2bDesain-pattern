@@ -1,4 +1,5 @@
 package modul3.latihan.bagian5;
 
-public interface Berenang {
+interface Berenang {
+    void berenang();
 }

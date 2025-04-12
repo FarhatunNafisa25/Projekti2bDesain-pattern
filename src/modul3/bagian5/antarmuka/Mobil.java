@@ -1,4 +1,8 @@
 package modul3.bagian5.antarmuka;
 
-public class Mobil {
+class Mobil implements Bergerak {
+    @Override
+    public void bergerak() {
+        System.out.println("Mobil sedang melaju.");
+    }
 }

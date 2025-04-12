@@ -9,7 +9,14 @@ public class Barang {
         namaBarang="Pensil";
         harga=12.000;
     }
+    //Parameterized Construktor
     public Barang(String namaBarang,double harga){
         this.namaBarang=namaBarang;
+        this.harga=harga;
+    }
+    //Method
+    public void tampilkanInfo(){
+        System.out.println("Nama Barang: "+namaBarang);
+        System.out.println("Harga Barang: "+harga);
     }
 }
